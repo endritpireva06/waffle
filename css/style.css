@@ -1,0 +1,330 @@
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+section {
+    clear: both;
+}
+.container {
+    width: 1180px;
+}
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+a {
+    color: #333;
+}
+/* LIL - INFO */
+.lil-info {
+    background-color: #eeeeee;
+    padding: 10px 0;
+    color: #888;
+}
+.lil-info i {
+    display: inline-block;
+    padding-right: 20px;
+}
+.lil-info p {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.lil-info .float-right {
+    float: right;
+    display: inline-block;
+}
+.lil-info .float-right p {
+    display: inline-block;
+    padding-right: 14px;
+    padding-left: 0;
+}
+.lil-info .float-right i {
+    padding-right: 14px;
+}
+.lil-info a {
+    text-decoration: none;
+    color: #888;
+    font-size: 12px;
+}
+
+/* SECTION NAVIGATION */
+.navigation img {
+    width: 245px;
+    height: 60px;
+    margin: 20px 0;
+}
+.navigation .links {
+    float: left;
+    margin-left: 130px;
+    margin-top: 45px;
+}
+.navigation .links a {
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 28px;
+}
+.navigation .links a.active {
+    color: #00bbcc;
+}
+.navigation button {
+    border: 1px solid #fec107;
+    border-radius: 50px;
+    background-color: #fec107;
+    color: #fff;
+    width: 170px;
+    height: 47px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+/* SECTION WAFFLIA */
+.wafflia {
+    background: url("../img/waffle.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 554px;
+    color: #fff;
+    text-align: center;
+}
+
+span {
+    color: #00bbcc;
+    padding: 0 38px;
+}
+.wafflia h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 102px;
+    padding-top: 145px;
+    padding-bottom: 25px;
+}
+.wafflia p {
+    text-align: center;
+    line-height: 1.5;
+}
+.wafflia button {
+    border: 1px solid #00bbcc;
+    border-radius: 50px;
+    background-color: #00bbcc;
+    width: 172px;
+    height: 47px;
+    margin-top: 25px;
+}
+.wafflia button:focus {
+    outline: none;
+}
+
+/* SECTION ABOUT-US */
+
+.about-us {
+    height: 660px;
+}
+.about-us img {
+    width: 100%;
+}
+.about-us h6 {
+    color: #f6c10f;
+    font-family: 'Yellowtail', cursive;
+    padding-top: 93px;
+}
+.about-us h1 {
+    padding-top: 27px;
+    font-size: 35px;
+}
+span.about {
+    float: left;
+    width: 100%;
+    text-align: center;
+    max-width: 170px;
+    padding: 0;
+    color: #333;
+}
+.about-us i {
+    padding-top: 20px;
+    font-size: 30px;
+}
+.about-us p {
+    padding-top: 25px;
+    width: 80%;
+    line-height: 1.5;
+    float: left;
+}
+.about-us button {
+    border: 1px solid #00bbcc;
+    border-radius: 50px;
+    background-color: #00bbcc;
+    color: #fff;
+    width: 172px;
+    height: 47px;
+    margin-top: 45px;
+    float: left;
+}
+.about-us button:focus {
+    outline: none;
+}
+
+
+/* SECTION - ORDER-ONLINE */
+
+.order-online {
+    background: url("../img/order-online.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 570px;
+    color: #fff;
+}
+
+.order-online .brightness {
+    height: 570px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 95px 0;
+}
+.order-online h6 {
+    font-family: 'Yellowtail', cursive;
+    color: #ffbc01;
+}
+.order-online h1 {
+    font-size: 35px;
+    padding-top: 27px;
+}
+.order-online i {
+    font-size: 30px;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+.order-online p {
+    line-height: 1.5;
+    font-size: 15px;
+    padding-top: 25px;
+    width: 90%;
+}
+.order-online .box {
+    width: 435px;
+    height: 88px;
+    border: 1px solid #777674;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: #fff;
+    margin-top: 45px;
+    padding: 20px;
+}
+.order-online .box h6 {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.order-online .box h5 {
+    font-size: 25px;
+    color: #ffbc01;
+    margin-top: 10px;
+}
+.order-online .box2 {
+    width: 570px;
+    height: 370px;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+.order-online .box2 .inputs {
+    display: block;
+    float: right;
+    margin-right: 30px;
+    padding: 18px 0;
+    width: 300px;
+}
+.order-online .box2 .inputs input {
+    width: 100%;
+    background: #000;
+    border: 1px dotted white;
+    border-radius: 5px;
+    height: 35px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 10px 0;
+}
+.order-online .box2 textarea {
+    background: #000;
+    border: 1px dotted;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 12px;}
+
+.order-online .box2 button {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #fec107;
+    background: #fec107;
+    color: #333;
+    text-transform: uppercase;
+}
+.order-online .box2 button:focus {
+    outline: none;
+}
+.order-online .box2 ::-webkit-input-placeholder  {
+    color: #fff;
+}
+.order-online .box2 select {
+    width: 100%;
+    border: 1px dotted #fff;
+    border-radius: 5px;
+    background-color: #000;
+    padding: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+ .order-online .box3 {
+    width: 185px;
+    height: 370px;
+    color: #fff;
+    border-top: 181px solid transparent;
+    border-bottom: 181px solid transparent;
+    border-left: 185px solid #00bbcc;
+}
+.order-online  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    position: absolute;
+    left: 25px;
+}
+/* SECTION SERVICE */
+
+.service {
+    background: url("../img/service.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 860px;
+    text-align: center;
+}
+.service h6 {
+    display: table;
+    margin: 0 auto;
+    color: #ffbc01;
+    font-family: 'Yellowtail', cursive;
+    font-size: 20px;
+    padding-top: 95px;
+}
+.service h1 {
+    font-size: 40px;
+    padding: 30px 0;
+}
+.service i {
+    font-size: 30px;
+}
+
+
+
